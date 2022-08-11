@@ -88,7 +88,7 @@ namespace EmployeeListing.DataAccessLayer
             }
         }
 
-        public List<Employee> ViewEmployeeRequest()
+        public List<Employee> ViewEmployeeRequest()        
         {
             try
             {

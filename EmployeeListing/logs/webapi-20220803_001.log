@@ -1,0 +1,69 @@
+[2022-08-03 16:08:14.674 +05:30 INF] User profile is available. Using 'C:\Users\sheik.heera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-08-03 16:08:40.361 +05:30 INF] User profile is available. Using 'C:\Users\sheik.heera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-08-03 16:09:15.249 +05:30 INF] User profile is available. Using 'C:\Users\sheik.heera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-08-03 16:09:50.917 +05:30 INF] User profile is available. Using 'C:\Users\sheik.heera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-08-03 16:09:51.127 +05:30 INF] Now listening on: https://localhost:7047
+[2022-08-03 16:09:51.129 +05:30 INF] Now listening on: http://localhost:5089
+[2022-08-03 16:09:51.140 +05:30 INF] Application started. Press Ctrl+C to shut down.
+[2022-08-03 16:09:51.142 +05:30 INF] Hosting environment: Development
+[2022-08-03 16:09:51.144 +05:30 INF] Content root path: C:\Users\sheik.heera\Documents\GitHub\EmployeeListing\EmployeeListing\
+[2022-08-03 16:09:51.567 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/ - -
+[2022-08-03 16:09:51.680 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/ - - - 404 0 - 115.8792ms
+[2022-08-03 16:09:59.212 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger - -
+[2022-08-03 16:09:59.219 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger - - - 301 0 - 6.7645ms
+[2022-08-03 16:09:59.229 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/index.html - -
+[2022-08-03 16:09:59.356 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/index.html - - - 200 - text/html;charset=utf-8 127.1819ms
+[2022-08-03 16:09:59.370 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/swagger-ui-bundle.js - -
+[2022-08-03 16:09:59.370 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/swagger-ui-standalone-preset.js - -
+[2022-08-03 16:09:59.371 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/swagger-ui.css - -
+[2022-08-03 16:09:59.427 +05:30 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-08-03 16:09:59.427 +05:30 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2022-08-03 16:09:59.427 +05:30 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2022-08-03 16:09:59.431 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 60.1399ms
+[2022-08-03 16:09:59.431 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 60.1799ms
+[2022-08-03 16:09:59.431 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/swagger-ui.css - - - 200 143632 text/css 60.3472ms
+[2022-08-03 16:09:59.564 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/v1/swagger.json - -
+[2022-08-03 16:09:59.773 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 209.3417ms
+[2022-08-03 16:10:30.066 +05:30 INF] Request starting HTTP/2 POST https://localhost:7047/Token/Login application/json 74
+[2022-08-03 16:10:30.084 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.TokenController.Login (EmployeeListing)'
+[2022-08-03 16:10:30.124 +05:30 INF] Route matched with {action = "Login", controller = "Token"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(EmployeeListing.Models.User) on controller EmployeeListing.Controller.TokenController (EmployeeListing).
+[2022-08-03 16:11:16.948 +05:30 INF] Entity Framework Core 6.0.7 initialized 'EmployeeListingDBcontext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: None
+[2022-08-03 16:11:17.655 +05:30 INF] Executed DbCommand (46ms) [Parameters=[@__employeeMail_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employees] AS [e]
+        WHERE [e].[MailId] = @__employeeMail_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+[2022-08-03 16:11:21.006 +05:30 INF] Executed DbCommand (5ms) [Parameters=[@__employeeMail_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employees] AS [e]
+        WHERE ([e].[MailId] = @__employeeMail_0) AND ([e].[Password] = @__password_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+[2022-08-03 16:11:24.518 +05:30 INF] Executed DbCommand (4ms) [Parameters=[@__employeeMail_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employees] AS [e]
+        WHERE (([e].[MailId] = @__employeeMail_0) AND ([e].[Password] = @__password_1)) AND ([e].[IsActive] = CAST(1 AS bit))) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+[2022-08-03 16:11:25.733 +05:30 INF] Executed DbCommand (3ms) [Parameters=[@__employeeMail_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employees] AS [e]
+        WHERE (([e].[MailId] = @__employeeMail_0) AND ([e].[Password] = @__password_1)) AND ([e].[isAdminAccepted] = CAST(1 AS bit))) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+[2022-08-03 16:11:28.024 +05:30 INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DateOfBirth], [e].[EmployeeClass], [e].[EmployeeName], [e].[GenderId], [e].[IsActive], [e].[MailId], [e].[Password], [e].[Qualification], [e].[RegisterNumber], [e].[RoleId], [e].[SubjectId], [e].[isAdminAccepted], [c].[ClassId], [c].[className], [c].[isActive], [q].[QualificationId], [q].[QualificationName], [q].[isActive], [s].[SubjectId], [s].[SubjectName], [s].[isActive]
+FROM [Employees] AS [e]
+INNER JOIN [Classes] AS [c] ON [e].[EmployeeClass] = [c].[ClassId]
+INNER JOIN [Qualification] AS [q] ON [e].[Qualification] = [q].[QualificationId]
+INNER JOIN [Subjects] AS [s] ON [e].[SubjectId] = [s].[SubjectId]
+WHERE ([e].[isAdminAccepted] = CAST(1 AS bit)) AND ([e].[IsActive] = CAST(1 AS bit))

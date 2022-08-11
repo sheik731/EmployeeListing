@@ -146,7 +146,7 @@ public class EmployeeController : ControllerBase
     }
 
     [HttpPost]
-   // [Authorize(Roles="1")]
+    [Authorize(Roles="1")]
     public IActionResult CreateNewSubject(Subject subject)
     {
         if(string.IsNullOrEmpty(subject.SubjectName) || string.IsNullOrWhiteSpace(subject.SubjectName))

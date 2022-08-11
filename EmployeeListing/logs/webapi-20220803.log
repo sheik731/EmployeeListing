@@ -1,0 +1,618 @@
+[2022-08-03 12:27:00.445 +05:30 INF] User profile is available. Using 'C:\Users\sheik.heera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-08-03 12:27:00.594 +05:30 INF] Now listening on: https://localhost:7047
+[2022-08-03 12:27:00.594 +05:30 INF] Now listening on: http://localhost:5089
+[2022-08-03 12:27:00.599 +05:30 INF] Application started. Press Ctrl+C to shut down.
+[2022-08-03 12:27:00.599 +05:30 INF] Hosting environment: Development
+[2022-08-03 12:27:00.599 +05:30 INF] Content root path: C:\Users\sheik.heera\Documents\GitHub\EmployeeListing\EmployeeListing\
+[2022-08-03 12:27:16.328 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/ - -
+[2022-08-03 12:27:16.467 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/ - - - 404 0 - 144.1951ms
+[2022-08-03 12:27:21.799 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger - -
+[2022-08-03 12:27:21.800 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger - - - 301 0 - 1.5321ms
+[2022-08-03 12:27:21.823 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/index.html - -
+[2022-08-03 12:27:21.917 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/index.html - - - 200 - text/html;charset=utf-8 93.4151ms
+[2022-08-03 12:27:21.938 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/swagger-ui.css - -
+[2022-08-03 12:27:21.938 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/swagger-ui-bundle.js - -
+[2022-08-03 12:27:21.938 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/swagger-ui-standalone-preset.js - -
+[2022-08-03 12:27:21.964 +05:30 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2022-08-03 12:27:21.964 +05:30 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2022-08-03 12:27:21.964 +05:30 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-08-03 12:27:21.966 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 28.2654ms
+[2022-08-03 12:27:21.966 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/swagger-ui.css - - - 200 143632 text/css 28.4014ms
+[2022-08-03 12:27:21.966 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 28.4103ms
+[2022-08-03 12:27:22.135 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger - -
+[2022-08-03 12:27:22.136 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger - - - 301 0 - 0.3075ms
+[2022-08-03 12:27:22.148 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/index.html - -
+[2022-08-03 12:27:22.150 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/index.html - - - 200 - text/html;charset=utf-8 2.4339ms
+[2022-08-03 12:27:22.174 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/swagger-ui.css - -
+[2022-08-03 12:27:22.174 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/swagger-ui-bundle.js - -
+[2022-08-03 12:27:22.175 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/swagger-ui-standalone-preset.js - -
+[2022-08-03 12:27:22.180 +05:30 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-08-03 12:27:22.182 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/swagger-ui.css - - - 200 143632 text/css 7.9393ms
+[2022-08-03 12:27:22.198 +05:30 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2022-08-03 12:27:22.198 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 23.2564ms
+[2022-08-03 12:27:22.205 +05:30 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2022-08-03 12:27:22.205 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 30.9740ms
+[2022-08-03 12:27:22.358 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/v1/swagger.json - -
+[2022-08-03 12:27:22.495 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 137.3432ms
+[2022-08-03 12:27:44.816 +05:30 INF] Request starting HTTP/2 POST https://localhost:7047/Token/Login application/json 74
+[2022-08-03 12:27:44.821 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.TokenController.Login (EmployeeListing)'
+[2022-08-03 12:27:44.854 +05:30 INF] Route matched with {action = "Login", controller = "Token"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(EmployeeListing.Models.User) on controller EmployeeListing.Controller.TokenController (EmployeeListing).
+[2022-08-03 12:27:46.455 +05:30 INF] Entity Framework Core 6.0.7 initialized 'EmployeeListingDBcontext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: None
+[2022-08-03 12:27:47.361 +05:30 INF] Executed DbCommand (61ms) [Parameters=[@__employeeMail_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employees] AS [e]
+        WHERE [e].[MailId] = @__employeeMail_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+[2022-08-03 12:27:47.404 +05:30 INF] Executed DbCommand (3ms) [Parameters=[@__employeeMail_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employees] AS [e]
+        WHERE ([e].[MailId] = @__employeeMail_0) AND ([e].[Password] = @__password_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+[2022-08-03 12:27:47.420 +05:30 INF] Executed DbCommand (8ms) [Parameters=[@__employeeMail_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employees] AS [e]
+        WHERE (([e].[MailId] = @__employeeMail_0) AND ([e].[Password] = @__password_1)) AND ([e].[IsActive] = CAST(1 AS bit))) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+[2022-08-03 12:27:47.429 +05:30 INF] Executed DbCommand (3ms) [Parameters=[@__employeeMail_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employees] AS [e]
+        WHERE (([e].[MailId] = @__employeeMail_0) AND ([e].[Password] = @__password_1)) AND ([e].[isAdminAccepted] = CAST(1 AS bit))) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+[2022-08-03 12:27:47.578 +05:30 INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DateOfBirth], [e].[EmployeeClass], [e].[EmployeeName], [e].[GenderId], [e].[IsActive], [e].[MailId], [e].[Password], [e].[Qualification], [e].[RegisterNumber], [e].[RoleId], [e].[SubjectId], [e].[isAdminAccepted], [c].[ClassId], [c].[className], [c].[isActive], [q].[QualificationId], [q].[QualificationName], [q].[isActive], [s].[SubjectId], [s].[SubjectName], [s].[isActive]
+FROM [Employees] AS [e]
+INNER JOIN [Classes] AS [c] ON [e].[EmployeeClass] = [c].[ClassId]
+INNER JOIN [Qualification] AS [q] ON [e].[Qualification] = [q].[QualificationId]
+INNER JOIN [Subjects] AS [s] ON [e].[SubjectId] = [s].[SubjectId]
+WHERE ([e].[isAdminAccepted] = CAST(1 AS bit)) AND ([e].[IsActive] = CAST(1 AS bit))
+[2022-08-03 12:27:47.954 +05:30 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType10`4[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-08-03 12:27:47.969 +05:30 INF] Executed action EmployeeListing.Controller.TokenController.Login (EmployeeListing) in 3105.618ms
+[2022-08-03 12:27:47.969 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.TokenController.Login (EmployeeListing)'
+[2022-08-03 12:27:47.977 +05:30 INF] Request finished HTTP/2 POST https://localhost:7047/Token/Login application/json 74 - 200 - application/json;+charset=utf-8 3161.5889ms
+[2022-08-03 12:29:56.346 +05:30 INF] Request starting HTTP/2 POST https://localhost:7047/Employee/CreateNewSubject application/json 64
+[2022-08-03 12:29:56.402 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:29:56.403 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:29:56.411 +05:30 ERR] Employee Service : CreateNewSubject(string SubjectName) : subject Name must be alphabets and of lenght of 3 to 15.
+[2022-08-03 12:29:56.412 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+[2022-08-03 12:29:56.412 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 8.9972ms
+[2022-08-03 12:29:56.412 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:29:56.412 +05:30 INF] Request finished HTTP/2 POST https://localhost:7047/Employee/CreateNewSubject application/json 64 - 400 - text/plain;+charset=utf-8 65.9825ms
+[2022-08-03 12:30:04.664 +05:30 INF] Request starting HTTP/2 POST https://localhost:7047/Employee/CreateNewSubject application/json 65
+[2022-08-03 12:30:04.678 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:30:04.679 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:30:04.683 +05:30 INF] Entity Framework Core 6.0.7 initialized 'EmployeeListingDBcontext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: None
+[2022-08-03 12:30:04.695 +05:30 INF] Executed DbCommand (6ms) [Parameters=[@__subject_SubjectName_0='?' (Size = 4000), @__subject_isActive_1='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Subjects] AS [s]
+        WHERE ([s].[SubjectName] = @__subject_SubjectName_0) AND ([s].[isActive] = @__subject_isActive_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+[2022-08-03 12:30:04.767 +05:30 INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Subjects] ([SubjectName], [isActive])
+VALUES (@p0, @p1);
+SELECT [SubjectId]
+FROM [Subjects]
+WHERE @@ROWCOUNT = 1 AND [SubjectId] = scope_identity();
+[2022-08-03 12:30:04.789 +05:30 INF] Executing OkObjectResult, writing value of type 'System.String'.
+[2022-08-03 12:30:04.789 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 110.167ms
+[2022-08-03 12:30:04.789 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:30:04.789 +05:30 INF] Request finished HTTP/2 POST https://localhost:7047/Employee/CreateNewSubject application/json 65 - 200 - text/plain;+charset=utf-8 124.7570ms
+[2022-08-03 12:36:52.494 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=England application/json 24
+[2022-08-03 12:36:52.494 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=America application/json 24
+[2022-08-03 12:36:52.495 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:36:52.494 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Europe application/json 23
+[2022-08-03 12:36:52.495 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:36:52.494 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Swiz application/json 21
+[2022-08-03 12:36:52.495 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:36:52.495 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:36:52.495 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:36:52.495 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:36:52.495 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:36:52.495 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:36:52.504 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:36:52.504 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:36:52.504 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:36:52.504 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:36:52.506 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 10.5813ms
+[2022-08-03 12:36:52.506 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 10.1744ms
+[2022-08-03 12:36:52.506 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 10.152ms
+[2022-08-03 12:36:52.506 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:36:52.506 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:36:52.506 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 10.3078ms
+[2022-08-03 12:36:52.506 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:36:52.506 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Swiz application/json 21 - 400 - application/problem+json;+charset=utf-8 11.8409ms
+[2022-08-03 12:36:52.506 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=America application/json 24 - 400 - application/problem+json;+charset=utf-8 11.7591ms
+[2022-08-03 12:36:52.506 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=England application/json 24 - 400 - application/problem+json;+charset=utf-8 11.9770ms
+[2022-08-03 12:36:52.508 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Australia application/json 26
+[2022-08-03 12:36:52.506 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:36:52.509 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Europe application/json 23 - 400 - application/problem+json;+charset=utf-8 15.1902ms
+[2022-08-03 12:36:52.511 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Nicobar application/json 24
+[2022-08-03 12:36:52.512 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:36:52.513 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:36:52.513 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:36:52.513 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:36:52.520 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:36:52.521 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 8.1667ms
+[2022-08-03 12:36:52.521 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:36:52.521 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Australia application/json 26 - 400 - application/problem+json;+charset=utf-8 13.2509ms
+[2022-08-03 12:36:52.526 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:36:52.526 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 13.2113ms
+[2022-08-03 12:36:52.526 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:36:52.526 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Nicobar application/json 24 - 400 - application/problem+json;+charset=utf-8 15.1727ms
+[2022-08-03 12:36:52.541 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=North%20Middle%20Andaman application/json 37
+[2022-08-03 12:36:52.541 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:36:52.541 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:36:52.542 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:36:52.542 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.9211ms
+[2022-08-03 12:36:52.542 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:36:52.542 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=North%20Middle%20Andaman application/json 37 - 400 - application/problem+json;+charset=utf-8 1.7585ms
+[2022-08-03 12:36:52.632 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=South%20Andaman application/json 30
+[2022-08-03 12:36:52.633 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:36:52.633 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:36:52.633 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:36:52.634 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.7312ms
+[2022-08-03 12:36:52.634 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:36:52.634 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=South%20Andaman application/json 30 - 400 - application/problem+json;+charset=utf-8 1.6099ms
+[2022-08-03 12:36:52.740 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Anantapur application/json 26
+[2022-08-03 12:36:52.740 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:36:52.740 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:36:52.741 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:36:52.741 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.8035ms
+[2022-08-03 12:36:52.741 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:36:52.741 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Anantapur application/json 26 - 400 - application/problem+json;+charset=utf-8 1.6658ms
+[2022-08-03 12:36:52.834 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Chittoor application/json 25
+[2022-08-03 12:36:52.835 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:36:52.835 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:36:52.835 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:36:52.836 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.7325ms
+[2022-08-03 12:36:52.836 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:36:52.836 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Chittoor application/json 25 - 400 - application/problem+json;+charset=utf-8 1.4568ms
+[2022-08-03 12:38:34.875 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=America application/json 24
+[2022-08-03 12:38:34.876 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:38:34.876 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:38:34.876 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:38:34.876 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.5416ms
+[2022-08-03 12:38:34.876 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:38:34.877 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=America application/json 24 - 400 - application/problem+json;+charset=utf-8 1.1636ms
+[2022-08-03 12:38:34.995 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Swiz application/json 21
+[2022-08-03 12:38:34.995 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:38:34.995 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:38:34.996 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:38:34.997 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 1.0434ms
+[2022-08-03 12:38:34.997 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:38:34.997 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Swiz application/json 21 - 400 - application/problem+json;+charset=utf-8 1.9986ms
+[2022-08-03 12:38:35.089 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Australia application/json 26
+[2022-08-03 12:38:35.089 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:38:35.089 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:38:35.090 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:38:35.090 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.662ms
+[2022-08-03 12:38:35.090 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:38:35.090 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Australia application/json 26 - 400 - application/problem+json;+charset=utf-8 1.4535ms
+[2022-08-03 12:38:35.170 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=England application/json 24
+[2022-08-03 12:38:35.170 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:38:35.171 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:38:35.171 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:38:35.171 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.7194ms
+[2022-08-03 12:38:35.171 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:38:35.171 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=England application/json 24 - 400 - application/problem+json;+charset=utf-8 1.2292ms
+[2022-08-03 12:38:35.287 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Europe application/json 23
+[2022-08-03 12:38:35.287 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:38:35.287 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:38:35.288 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:38:35.289 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 1.07ms
+[2022-08-03 12:38:35.289 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:38:35.289 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Europe application/json 23 - 400 - application/problem+json;+charset=utf-8 1.9464ms
+[2022-08-03 12:38:35.379 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Nicobar application/json 24
+[2022-08-03 12:38:35.380 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:38:35.380 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:38:35.381 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:38:35.381 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.7933ms
+[2022-08-03 12:38:35.381 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:38:35.381 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Nicobar application/json 24 - 400 - application/problem+json;+charset=utf-8 1.5590ms
+[2022-08-03 12:38:35.483 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=North%20Middle%20Andaman application/json 37
+[2022-08-03 12:38:35.484 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:38:35.484 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:38:35.485 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:38:35.485 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.9421ms
+[2022-08-03 12:38:35.485 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:38:35.486 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=North%20Middle%20Andaman application/json 37 - 400 - application/problem+json;+charset=utf-8 2.4417ms
+[2022-08-03 12:38:35.593 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=South%20Andaman application/json 30
+[2022-08-03 12:38:35.594 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:38:35.594 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:38:35.595 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:38:35.596 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 1.578ms
+[2022-08-03 12:38:35.596 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:38:35.596 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=South%20Andaman application/json 30 - 400 - application/problem+json;+charset=utf-8 2.9837ms
+[2022-08-03 12:38:35.691 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Anantapur application/json 26
+[2022-08-03 12:38:35.692 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:38:35.693 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:38:35.693 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:38:35.693 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.845ms
+[2022-08-03 12:38:35.694 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:38:35.694 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Anantapur application/json 26 - 400 - application/problem+json;+charset=utf-8 2.4290ms
+[2022-08-03 12:38:35.778 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Chittoor application/json 25
+[2022-08-03 12:38:35.778 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:38:35.778 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:38:35.779 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:38:35.779 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.5192ms
+[2022-08-03 12:38:35.779 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:38:35.779 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Chittoor application/json 25 - 400 - application/problem+json;+charset=utf-8 1.0659ms
+[2022-08-03 12:41:35.390 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=America application/json 25
+[2022-08-03 12:41:35.390 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:41:35.390 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:41:35.391 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:41:35.391 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.5465ms
+[2022-08-03 12:41:35.391 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:41:35.391 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=America application/json 25 - 400 - application/problem+json;+charset=utf-8 1.1211ms
+[2022-08-03 12:41:35.507 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Swiz application/json 22
+[2022-08-03 12:41:35.508 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:41:35.508 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:41:35.509 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:41:35.509 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 1.015ms
+[2022-08-03 12:41:35.509 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:41:35.509 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Swiz application/json 22 - 400 - application/problem+json;+charset=utf-8 2.4599ms
+[2022-08-03 12:41:35.581 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Australia application/json 27
+[2022-08-03 12:41:35.581 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:41:35.581 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:41:35.582 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:41:35.582 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.666ms
+[2022-08-03 12:41:35.582 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:41:35.582 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Australia application/json 27 - 400 - application/problem+json;+charset=utf-8 1.3460ms
+[2022-08-03 12:41:35.697 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=England application/json 25
+[2022-08-03 12:41:35.698 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:41:35.698 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:41:35.699 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:41:35.699 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 1.0668ms
+[2022-08-03 12:41:35.699 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:41:35.699 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=England application/json 25 - 400 - application/problem+json;+charset=utf-8 2.0811ms
+[2022-08-03 12:41:35.809 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Europe application/json 24
+[2022-08-03 12:41:35.809 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:41:35.810 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:41:35.811 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:41:35.811 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 1.2491ms
+[2022-08-03 12:41:35.811 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:41:35.811 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Europe application/json 24 - 400 - application/problem+json;+charset=utf-8 2.5600ms
+[2022-08-03 12:41:35.906 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Nicobar application/json 25
+[2022-08-03 12:41:35.907 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:41:35.907 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:41:35.907 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:41:35.908 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.8209ms
+[2022-08-03 12:41:35.908 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:41:35.908 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Nicobar application/json 25 - 400 - application/problem+json;+charset=utf-8 1.6362ms
+[2022-08-03 12:41:36.009 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=North%20Middle%20Andaman application/json 38
+[2022-08-03 12:41:36.010 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:41:36.010 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:41:36.012 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:41:36.012 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 1.211ms
+[2022-08-03 12:41:36.012 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:41:36.012 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=North%20Middle%20Andaman application/json 38 - 400 - application/problem+json;+charset=utf-8 2.5465ms
+[2022-08-03 12:41:36.082 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=South%20Andaman application/json 31
+[2022-08-03 12:41:36.082 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:41:36.082 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:41:36.083 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:41:36.083 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.7541ms
+[2022-08-03 12:41:36.083 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:41:36.083 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=South%20Andaman application/json 31 - 400 - application/problem+json;+charset=utf-8 1.4585ms
+[2022-08-03 12:41:36.184 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Anantapur application/json 27
+[2022-08-03 12:41:36.185 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:41:36.185 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:41:36.186 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:41:36.186 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.8942ms
+[2022-08-03 12:41:36.186 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:41:36.186 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Anantapur application/json 27 - 400 - application/problem+json;+charset=utf-8 2.1434ms
+[2022-08-03 12:41:36.296 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Chittoor application/json 26
+[2022-08-03 12:41:36.296 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:41:36.296 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:41:36.297 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:41:36.297 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.7916ms
+[2022-08-03 12:41:36.297 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:41:36.297 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Chittoor application/json 26 - 400 - application/problem+json;+charset=utf-8 1.5437ms
+[2022-08-03 12:43:14.041 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=America application/json 24
+[2022-08-03 12:43:14.042 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:43:14.042 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:43:14.042 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:43:14.043 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.6852ms
+[2022-08-03 12:43:14.043 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:43:14.043 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=America application/json 24 - 400 - application/problem+json;+charset=utf-8 1.3270ms
+[2022-08-03 12:43:14.141 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Swiz application/json 21
+[2022-08-03 12:43:14.141 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:43:14.141 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:43:14.142 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:43:14.142 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.5391ms
+[2022-08-03 12:43:14.142 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:43:14.142 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Swiz application/json 21 - 400 - application/problem+json;+charset=utf-8 1.0780ms
+[2022-08-03 12:43:14.238 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Australia application/json 26
+[2022-08-03 12:43:14.238 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:43:14.238 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:43:14.238 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:43:14.238 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.4198ms
+[2022-08-03 12:43:14.238 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:43:14.238 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Australia application/json 26 - 400 - application/problem+json;+charset=utf-8 0.9276ms
+[2022-08-03 12:43:14.350 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=England application/json 24
+[2022-08-03 12:43:14.350 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:43:14.350 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:43:14.350 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:43:14.351 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.3379ms
+[2022-08-03 12:43:14.351 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:43:14.351 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=England application/json 24 - 400 - application/problem+json;+charset=utf-8 0.7147ms
+[2022-08-03 12:43:14.451 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Europe application/json 23
+[2022-08-03 12:43:14.451 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:43:14.451 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:43:14.452 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:43:14.452 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.3681ms
+[2022-08-03 12:43:14.452 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:43:14.452 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Europe application/json 23 - 400 - application/problem+json;+charset=utf-8 0.8538ms
+[2022-08-03 12:43:14.561 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Nicobar application/json 24
+[2022-08-03 12:43:14.561 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:43:14.562 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:43:14.562 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:43:14.562 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.4087ms
+[2022-08-03 12:43:14.562 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:43:14.562 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Nicobar application/json 24 - 400 - application/problem+json;+charset=utf-8 0.8850ms
+[2022-08-03 12:43:14.644 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=North%20Middle%20Andaman application/json 37
+[2022-08-03 12:43:14.644 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:43:14.644 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:43:14.644 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:43:14.644 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.3988ms
+[2022-08-03 12:43:14.644 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:43:14.644 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=North%20Middle%20Andaman application/json 37 - 400 - application/problem+json;+charset=utf-8 0.7423ms
+[2022-08-03 12:43:14.754 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=South%20Andaman application/json 30
+[2022-08-03 12:43:14.754 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:43:14.754 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:43:14.754 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:43:14.754 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.4111ms
+[2022-08-03 12:43:14.754 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:43:14.755 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=South%20Andaman application/json 30 - 400 - application/problem+json;+charset=utf-8 0.8736ms
+[2022-08-03 12:43:14.856 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Anantapur application/json 26
+[2022-08-03 12:43:14.856 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:43:14.856 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:43:14.857 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:43:14.857 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.7395ms
+[2022-08-03 12:43:14.857 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:43:14.857 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Anantapur application/json 26 - 400 - application/problem+json;+charset=utf-8 1.5849ms
+[2022-08-03 12:43:14.955 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Chittoor application/json 25
+[2022-08-03 12:43:14.955 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:43:14.955 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:43:14.955 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:43:14.955 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.5405ms
+[2022-08-03 12:43:14.956 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:43:14.956 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=Chittoor application/json 25 - 400 - application/problem+json;+charset=utf-8 1.0854ms
+[2022-08-03 12:44:19.524 +05:30 INF] Request starting HTTP/2 POST https://localhost:7047/Employee/CreateNewSubject application/json 65
+[2022-08-03 12:44:19.524 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:44:19.524 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:44:19.565 +05:30 INF] Entity Framework Core 6.0.7 initialized 'EmployeeListingDBcontext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: None
+[2022-08-03 12:44:19.577 +05:30 INF] Executed DbCommand (3ms) [Parameters=[@__subject_SubjectName_0='?' (Size = 4000), @__subject_isActive_1='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Subjects] AS [s]
+        WHERE ([s].[SubjectName] = @__subject_SubjectName_0) AND ([s].[isActive] = @__subject_isActive_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+[2022-08-03 12:44:19.578 +05:30 ERR] Employee service : CreateSubject(string  locationName) : Subject name already exist
+[2022-08-03 12:44:19.578 +05:30 ERR] Employee Service : CreateNewSubject(string SubjectName) : Subject name already exist
+[2022-08-03 12:44:19.578 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+[2022-08-03 12:44:19.578 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 53.908ms
+[2022-08-03 12:44:19.578 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:44:19.579 +05:30 INF] Request finished HTTP/2 POST https://localhost:7047/Employee/CreateNewSubject application/json 65 - 400 - text/plain;+charset=utf-8 54.4548ms
+[2022-08-03 12:45:07.120 +05:30 INF] Request starting HTTP/2 POST https://localhost:7047/Employee/CreateNewSubject application/json 66
+[2022-08-03 12:45:07.121 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:45:07.121 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:45:07.122 +05:30 INF] Entity Framework Core 6.0.7 initialized 'EmployeeListingDBcontext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: None
+[2022-08-03 12:45:07.125 +05:30 INF] Executed DbCommand (2ms) [Parameters=[@__subject_SubjectName_0='?' (Size = 4000), @__subject_isActive_1='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Subjects] AS [s]
+        WHERE ([s].[SubjectName] = @__subject_SubjectName_0) AND ([s].[isActive] = @__subject_isActive_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+[2022-08-03 12:45:07.130 +05:30 INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Subjects] ([SubjectName], [isActive])
+VALUES (@p0, @p1);
+SELECT [SubjectId]
+FROM [Subjects]
+WHERE @@ROWCOUNT = 1 AND [SubjectId] = scope_identity();
+[2022-08-03 12:45:07.134 +05:30 INF] Executing OkObjectResult, writing value of type 'System.String'.
+[2022-08-03 12:45:07.134 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 12.8389ms
+[2022-08-03 12:45:07.134 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:45:07.134 +05:30 INF] Request finished HTTP/2 POST https://localhost:7047/Employee/CreateNewSubject application/json 66 - 200 - text/plain;+charset=utf-8 13.4987ms
+[2022-08-03 12:45:19.073 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/ - -
+[2022-08-03 12:45:19.074 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/ - - - 404 0 - 0.4306ms
+[2022-08-03 12:45:20.403 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/index.html - -
+[2022-08-03 12:45:20.405 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/index.html - - - 200 - text/html;charset=utf-8 1.9010ms
+[2022-08-03 12:45:20.464 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/swagger-ui.css - -
+[2022-08-03 12:45:20.465 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/swagger-ui-bundle.js - -
+[2022-08-03 12:45:20.465 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/swagger-ui-standalone-preset.js - -
+[2022-08-03 12:45:20.469 +05:30 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-08-03 12:45:20.469 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/swagger-ui.css - - - 200 143632 text/css 4.8893ms
+[2022-08-03 12:45:20.482 +05:30 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2022-08-03 12:45:20.482 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 16.4311ms
+[2022-08-03 12:45:20.485 +05:30 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2022-08-03 12:45:20.485 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 19.8585ms
+[2022-08-03 12:45:20.650 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/v1/swagger.json - -
+[2022-08-03 12:45:20.654 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.8514ms
+[2022-08-03 12:45:50.779 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=America application/json 24
+[2022-08-03 12:45:50.779 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:45:50.779 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:45:50.780 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:45:50.780 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.5917ms
+[2022-08-03 12:45:50.780 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:45:50.780 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=America application/json 24 - 400 - application/problem+json;+charset=utf-8 1.1534ms
+[2022-08-03 12:46:54.370 +05:30 INF] Request starting HTTP/2 POST https://localhost:7047/Token/Login application/json 74
+[2022-08-03 12:46:54.370 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.TokenController.Login (EmployeeListing)'
+[2022-08-03 12:46:54.370 +05:30 INF] Route matched with {action = "Login", controller = "Token"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(EmployeeListing.Models.User) on controller EmployeeListing.Controller.TokenController (EmployeeListing).
+[2022-08-03 12:46:54.393 +05:30 INF] Entity Framework Core 6.0.7 initialized 'EmployeeListingDBcontext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: None
+[2022-08-03 12:46:54.399 +05:30 INF] Executed DbCommand (5ms) [Parameters=[@__employeeMail_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employees] AS [e]
+        WHERE [e].[MailId] = @__employeeMail_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+[2022-08-03 12:46:54.407 +05:30 INF] Executed DbCommand (7ms) [Parameters=[@__employeeMail_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employees] AS [e]
+        WHERE ([e].[MailId] = @__employeeMail_0) AND ([e].[Password] = @__password_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+[2022-08-03 12:46:54.414 +05:30 INF] Executed DbCommand (6ms) [Parameters=[@__employeeMail_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employees] AS [e]
+        WHERE (([e].[MailId] = @__employeeMail_0) AND ([e].[Password] = @__password_1)) AND ([e].[IsActive] = CAST(1 AS bit))) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+[2022-08-03 12:46:54.421 +05:30 INF] Executed DbCommand (6ms) [Parameters=[@__employeeMail_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employees] AS [e]
+        WHERE (([e].[MailId] = @__employeeMail_0) AND ([e].[Password] = @__password_1)) AND ([e].[isAdminAccepted] = CAST(1 AS bit))) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+[2022-08-03 12:46:54.435 +05:30 INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DateOfBirth], [e].[EmployeeClass], [e].[EmployeeName], [e].[GenderId], [e].[IsActive], [e].[MailId], [e].[Password], [e].[Qualification], [e].[RegisterNumber], [e].[RoleId], [e].[SubjectId], [e].[isAdminAccepted], [c].[ClassId], [c].[className], [c].[isActive], [q].[QualificationId], [q].[QualificationName], [q].[isActive], [s].[SubjectId], [s].[SubjectName], [s].[isActive]
+FROM [Employees] AS [e]
+INNER JOIN [Classes] AS [c] ON [e].[EmployeeClass] = [c].[ClassId]
+INNER JOIN [Qualification] AS [q] ON [e].[Qualification] = [q].[QualificationId]
+INNER JOIN [Subjects] AS [s] ON [e].[SubjectId] = [s].[SubjectId]
+WHERE ([e].[isAdminAccepted] = CAST(1 AS bit)) AND ([e].[IsActive] = CAST(1 AS bit))
+[2022-08-03 12:46:54.439 +05:30 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType10`4[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-08-03 12:46:54.439 +05:30 INF] Executed action EmployeeListing.Controller.TokenController.Login (EmployeeListing) in 68.9631ms
+[2022-08-03 12:46:54.440 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.TokenController.Login (EmployeeListing)'
+[2022-08-03 12:46:54.440 +05:30 INF] Request finished HTTP/2 POST https://localhost:7047/Token/Login application/json 74 - 200 - application/json;+charset=utf-8 70.7710ms
+[2022-08-03 12:47:51.105 +05:30 INF] Request starting HTTP/2 POST https://localhost:7047/Employee/CreateNewSubject application/json 49
+[2022-08-03 12:47:51.105 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:47:51.105 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:47:51.106 +05:30 INF] Entity Framework Core 6.0.7 initialized 'EmployeeListingDBcontext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: None
+[2022-08-03 12:47:51.120 +05:30 INF] Executed DbCommand (13ms) [Parameters=[@__subject_SubjectName_0='?' (Size = 4000), @__subject_isActive_1='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Subjects] AS [s]
+        WHERE ([s].[SubjectName] = @__subject_SubjectName_0) AND ([s].[isActive] = @__subject_isActive_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+[2022-08-03 12:47:51.126 +05:30 INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Subjects] ([SubjectName], [isActive])
+VALUES (@p0, @p1);
+SELECT [SubjectId]
+FROM [Subjects]
+WHERE @@ROWCOUNT = 1 AND [SubjectId] = scope_identity();
+[2022-08-03 12:47:51.129 +05:30 INF] Executing OkObjectResult, writing value of type 'System.String'.
+[2022-08-03 12:47:51.130 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 24.8148ms
+[2022-08-03 12:47:51.130 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:47:51.130 +05:30 INF] Request finished HTTP/2 POST https://localhost:7047/Employee/CreateNewSubject application/json 49 - 200 - text/plain;+charset=utf-8 25.6667ms
+[2022-08-03 12:48:29.480 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=America application/json 24
+[2022-08-03 12:48:29.481 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:48:29.481 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:48:29.481 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:48:29.481 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.6388ms
+[2022-08-03 12:48:29.482 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:48:29.482 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=America application/json 24 - 400 - application/problem+json;+charset=utf-8 1.3508ms
+[2022-08-03 12:50:09.876 +05:30 INF] Request starting HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=America application/json 24
+[2022-08-03 12:50:09.876 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:50:09.876 +05:30 INF] Route matched with {action = "CreateNewSubject", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateNewSubject(EmployeeListing.Models.Subject) on controller EmployeeListing.Controller.EmployeeController (EmployeeListing).
+[2022-08-03 12:50:09.877 +05:30 INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+[2022-08-03 12:50:09.877 +05:30 INF] Executed action EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing) in 0.8995ms
+[2022-08-03 12:50:09.877 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.EmployeeController.CreateNewSubject (EmployeeListing)'
+[2022-08-03 12:50:09.878 +05:30 INF] Request finished HTTP/1.1 POST https://localhost:7047/Employee/CreateNewSubject?subjectName=America application/json 24 - 400 - application/problem+json;+charset=utf-8 1.8258ms
+[2022-08-03 15:45:05.701 +05:30 INF] User profile is available. Using 'C:\Users\sheik.heera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-08-03 15:45:06.162 +05:30 INF] Now listening on: https://localhost:7047
+[2022-08-03 15:45:06.165 +05:30 INF] Now listening on: http://localhost:5089
+[2022-08-03 15:45:06.168 +05:30 INF] Application started. Press Ctrl+C to shut down.
+[2022-08-03 15:45:06.169 +05:30 INF] Hosting environment: Development
+[2022-08-03 15:45:06.169 +05:30 INF] Content root path: C:\Users\sheik.heera\Documents\GitHub\EmployeeListing\EmployeeListing\
+[2022-08-03 16:05:37.225 +05:30 INF] User profile is available. Using 'C:\Users\sheik.heera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[2022-08-03 16:05:37.329 +05:30 INF] Now listening on: https://localhost:7047
+[2022-08-03 16:05:37.329 +05:30 INF] Now listening on: http://localhost:5089
+[2022-08-03 16:05:37.333 +05:30 INF] Application started. Press Ctrl+C to shut down.
+[2022-08-03 16:05:37.334 +05:30 INF] Hosting environment: Development
+[2022-08-03 16:05:37.334 +05:30 INF] Content root path: C:\Users\sheik.heera\Documents\GitHub\EmployeeListing\EmployeeListing\
+[2022-08-03 16:07:00.235 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger - -
+[2022-08-03 16:07:00.337 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger - - - 301 0 - 109.2760ms
+[2022-08-03 16:07:00.339 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/index.html - -
+[2022-08-03 16:07:00.428 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/index.html - - - 200 - text/html;charset=utf-8 88.8780ms
+[2022-08-03 16:07:00.450 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/swagger-ui.css - -
+[2022-08-03 16:07:00.450 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/swagger-ui-bundle.js - -
+[2022-08-03 16:07:00.450 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/swagger-ui-standalone-preset.js - -
+[2022-08-03 16:07:00.478 +05:30 INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[2022-08-03 16:07:00.479 +05:30 INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[2022-08-03 16:07:00.480 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/swagger-ui.css - - - 200 143632 text/css 30.6123ms
+[2022-08-03 16:07:00.480 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 30.2179ms
+[2022-08-03 16:07:00.485 +05:30 INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[2022-08-03 16:07:00.485 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 35.4935ms
+[2022-08-03 16:07:00.599 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/v1/swagger.json - -
+[2022-08-03 16:07:00.629 +05:30 INF] Request starting HTTP/2 GET https://localhost:7047/swagger/favicon-32x32.png - -
+[2022-08-03 16:07:00.630 +05:30 INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+[2022-08-03 16:07:00.630 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/favicon-32x32.png - - - 200 628 image/png 0.8664ms
+[2022-08-03 16:07:00.765 +05:30 INF] Request finished HTTP/2 GET https://localhost:7047/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 165.5024ms
+[2022-08-03 16:07:27.276 +05:30 INF] Request starting HTTP/2 POST https://localhost:7047/Token/Login application/json 74
+[2022-08-03 16:07:27.357 +05:30 INF] Executing endpoint 'EmployeeListing.Controller.TokenController.Login (EmployeeListing)'
+[2022-08-03 16:07:27.389 +05:30 INF] Route matched with {action = "Login", controller = "Token"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(EmployeeListing.Models.User) on controller EmployeeListing.Controller.TokenController (EmployeeListing).
+[2022-08-03 16:07:29.047 +05:30 INF] Entity Framework Core 6.0.7 initialized 'EmployeeListingDBcontext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.7' with options: None
+[2022-08-03 16:07:29.931 +05:30 INF] Executed DbCommand (65ms) [Parameters=[@__employeeMail_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employees] AS [e]
+        WHERE [e].[MailId] = @__employeeMail_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+[2022-08-03 16:07:29.980 +05:30 INF] Executed DbCommand (6ms) [Parameters=[@__employeeMail_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employees] AS [e]
+        WHERE ([e].[MailId] = @__employeeMail_0) AND ([e].[Password] = @__password_1)) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+[2022-08-03 16:07:29.992 +05:30 INF] Executed DbCommand (3ms) [Parameters=[@__employeeMail_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employees] AS [e]
+        WHERE (([e].[MailId] = @__employeeMail_0) AND ([e].[Password] = @__password_1)) AND ([e].[IsActive] = CAST(1 AS bit))) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+[2022-08-03 16:07:30.001 +05:30 INF] Executed DbCommand (4ms) [Parameters=[@__employeeMail_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Employees] AS [e]
+        WHERE (([e].[MailId] = @__employeeMail_0) AND ([e].[Password] = @__password_1)) AND ([e].[isAdminAccepted] = CAST(1 AS bit))) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+[2022-08-03 16:07:30.154 +05:30 INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeId], [e].[DateOfBirth], [e].[EmployeeClass], [e].[EmployeeName], [e].[GenderId], [e].[IsActive], [e].[MailId], [e].[Password], [e].[Qualification], [e].[RegisterNumber], [e].[RoleId], [e].[SubjectId], [e].[isAdminAccepted], [c].[ClassId], [c].[className], [c].[isActive], [q].[QualificationId], [q].[QualificationName], [q].[isActive], [s].[SubjectId], [s].[SubjectName], [s].[isActive]
+FROM [Employees] AS [e]
+INNER JOIN [Classes] AS [c] ON [e].[EmployeeClass] = [c].[ClassId]
+INNER JOIN [Qualification] AS [q] ON [e].[Qualification] = [q].[QualificationId]
+INNER JOIN [Subjects] AS [s] ON [e].[SubjectId] = [s].[SubjectId]
+WHERE ([e].[isAdminAccepted] = CAST(1 AS bit)) AND ([e].[IsActive] = CAST(1 AS bit))
+[2022-08-03 16:07:30.468 +05:30 INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType10`4[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[2022-08-03 16:07:30.479 +05:30 INF] Executed action EmployeeListing.Controller.TokenController.Login (EmployeeListing) in 3082.5568ms
+[2022-08-03 16:07:30.480 +05:30 INF] Executed endpoint 'EmployeeListing.Controller.TokenController.Login (EmployeeListing)'
+[2022-08-03 16:07:30.485 +05:30 INF] Request finished HTTP/2 POST https://localhost:7047/Token/Login application/json 74 - 200 - application/json;+charset=utf-8 3208.8993ms

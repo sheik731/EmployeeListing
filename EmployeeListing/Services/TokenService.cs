@@ -64,10 +64,6 @@ namespace EmployeeListing.Services
                 {
                     token = new JwtSecurityTokenHandler().WriteToken(token),
                     ExpiryInMinutes = 360,
-                    // UserHash=getUserHash(user.Role),
-                    // IsAdmin = user.RoleId == 10 ? true : false,
-                    // IsTAC = user.RoleId == 9 ? true : false,
-                    // IsManagement=user.Role!.IsManagement? true : false,
                     UserName = user.EmployeeName,
                     UserId = user.EmployeeId
                 };

@@ -1,0 +1,13 @@
+.card1 {
+    width: 700px;
+    height: 80px;
+    /* padding: 6vh; */
+    padding-top: 7px !important;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 5%;
+    padding-top: 100%;
+    display: block;
+    box-shadow: 0 0 15px #dae0e5
+  }

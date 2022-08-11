@@ -3961,11 +3961,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Employee Listing\\EmployeeListing\\EmployeeListing.csproj",
+      "projectUniqueName": "C:\\Users\\sheik.heera\\Documents\\GitHub\\EmployeeListing\\EmployeeListing\\EmployeeListing.csproj",
       "projectName": "EmployeeListing",
-      "projectPath": "c:\\Employee Listing\\EmployeeListing\\EmployeeListing.csproj",
+      "projectPath": "C:\\Users\\sheik.heera\\Documents\\GitHub\\EmployeeListing\\EmployeeListing\\EmployeeListing.csproj",
       "packagesPath": "C:\\Users\\sheik.heera\\.nuget\\packages\\",
-      "outputPath": "c:\\Employee Listing\\EmployeeListing\\obj\\",
+      "outputPath": "C:\\Users\\sheik.heera\\Documents\\GitHub\\EmployeeListing\\EmployeeListing\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sheik.heera\\AppData\\Roaming\\NuGet\\NuGet.Config"

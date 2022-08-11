@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Employee Listing\\EmployeeListing\\EmployeeListing.csproj": {}
+    "C:\\Users\\sheik.heera\\Documents\\GitHub\\EmployeeListing\\EmployeeListing\\EmployeeListing.csproj": {}
   },
   "projects": {
-    "C:\\Employee Listing\\EmployeeListing\\EmployeeListing.csproj": {
+    "C:\\Users\\sheik.heera\\Documents\\GitHub\\EmployeeListing\\EmployeeListing\\EmployeeListing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Employee Listing\\EmployeeListing\\EmployeeListing.csproj",
+        "projectUniqueName": "C:\\Users\\sheik.heera\\Documents\\GitHub\\EmployeeListing\\EmployeeListing\\EmployeeListing.csproj",
         "projectName": "EmployeeListing",
-        "projectPath": "C:\\Employee Listing\\EmployeeListing\\EmployeeListing.csproj",
+        "projectPath": "C:\\Users\\sheik.heera\\Documents\\GitHub\\EmployeeListing\\EmployeeListing\\EmployeeListing.csproj",
         "packagesPath": "C:\\Users\\sheik.heera\\.nuget\\packages\\",
-        "outputPath": "C:\\Employee Listing\\EmployeeListing\\obj\\",
+        "outputPath": "C:\\Users\\sheik.heera\\Documents\\GitHub\\EmployeeListing\\EmployeeListing\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sheik.heera\\AppData\\Roaming\\NuGet\\NuGet.Config"
